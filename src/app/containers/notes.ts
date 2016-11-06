@@ -26,8 +26,8 @@ import { Component, OnInit } from '@angular/core';
 export class NotesContainer implements OnInit {
 	note =  {
 		title: 'title1',
-		value: '12321312'
-
+		value: '12321312',
+		color: 'lightblue'
 	}
 	constructor() {}
 
